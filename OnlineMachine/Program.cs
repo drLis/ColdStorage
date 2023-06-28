@@ -42,7 +42,7 @@ namespace OnlineMachine
 			Console.WriteLine("Please run procces at offline machine and press any key");
 			Console.ReadKey();
 
-			StreamReader streamReader = new StreamReader("../../../../OfflineMachine/bin/Debug/net5.0/transaction_out.txt");
+			StreamReader streamReader = new StreamReader("../../../../OfflainMachine/bin/Debug/net5.0/transaction_out.txt");
 			String signature = streamReader.ReadLine();
 			streamReader.Close();
 
